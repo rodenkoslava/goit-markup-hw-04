@@ -151,6 +151,7 @@ img {
     margin: 0 auto;
     padding-bottom: 24px;
     padding-top: 24px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
 }
 
 .nav-item {}
