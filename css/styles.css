@@ -253,15 +253,7 @@ img {
     gap: 24px;
 }
 
-.principles-item-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
+.principles-item-icon {}
 
 .principles-item {
     width: calc((100% - 72px) / 4);
@@ -286,6 +278,16 @@ img {
 
 .product-section {
     padding-bottom: 120px;
+}
+
+.product-section-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .body-title {
