@@ -219,7 +219,9 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
 }
 
-.hero-container {}
+.hero-container {
+    max-width: 1440px;
+}
 
 .headline {
     font-size: 56px;
@@ -229,6 +231,7 @@ img {
     color: var(--white-color);
     max-width: 496px;
     margin: 0 auto;
+
 }
 
 
