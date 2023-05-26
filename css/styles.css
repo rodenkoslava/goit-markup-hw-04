@@ -245,19 +245,12 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    background-color: #f5f4fa;
-
-}
-
-.principles-icon {
     width: 64px;
     height: 64px;
-
+    background-color: #f5f4fa;
 }
+
+.principles-icon {}
 
 .section-principles {
     padding: 120px 0;
@@ -266,7 +259,7 @@ img {
 
 .principles-title {
     height: 112px;
-    background-color: #f4f4fd;
+
 }
 
 .visually-hidden {
