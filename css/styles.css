@@ -233,7 +233,9 @@ img {
     background-size: cover;
 }
 
-.principles-title {}
+.principles-title {
+    scroll-padding-block-start: ;
+}
 
 .visually-hidden {
     position: absolute;
