@@ -221,12 +221,7 @@ img {
 
 }
 
-.hero-container {
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+.hero-container {}
 
 .headline {
     font-size: 56px;
@@ -255,6 +250,7 @@ img {
 
 .section-principles {
     padding: 120px 0;
+    стиль max-width: 1440px;
 
 }
 
@@ -262,6 +258,7 @@ img {
     height: 112px;
     background-color: #f4f4fd;
     margin-bottom: 8px;
+    max-width: 1440px;
 }
 
 .visually-hidden {
