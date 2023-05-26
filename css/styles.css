@@ -246,10 +246,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 112px;
     margin-bottom: 30px;
     border-radius: 4px;
-    background-color: #f4f4fd;
+    background-color: #f5f4fa;
 }
 
 .principles-icon {}
@@ -261,7 +260,7 @@ img {
 
 .principles-title {
     height: 112px;
-
+    background-color: #f4f4fd;
 }
 
 .visually-hidden {
