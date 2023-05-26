@@ -147,12 +147,13 @@ img {
 .header-navigation {
     display: flex;
     align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
-    gap: 40px;
     margin: 0 auto;
     padding-bottom: 24px;
     padding-top: 24px;
