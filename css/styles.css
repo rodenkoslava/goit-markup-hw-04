@@ -245,9 +245,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 64px;
-    height: 64px;
+    height: 112px;
+    margin-bottom: 30px;
+    border-radius: 4px;
     background-color: #f5f4fa;
+
 }
 
 .principles-icon {}
