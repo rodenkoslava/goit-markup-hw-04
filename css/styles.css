@@ -261,6 +261,7 @@ img {
 .principles-title {
     height: 112px;
     background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 
 .visually-hidden {
