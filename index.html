@@ -18,37 +18,37 @@
     />
   </head>
   <body>
-    <!--HEADER-->
-
-    <header class="header-section">
-      <div class="container container-header">
-        <nav class="header-navigation">
-          <a href="./index.html" class="header-logo-first link logo-title"
-            >Web<span class="header-logo-second link logo-title"
-              >Studio</span
-            ></a
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="logo link header-logo"
+            >Web<span class="logo-black">Studio</span></a
           >
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a class="header-link link" href="./index.html">Studio</a>
+          <ul class="header-menu list">
+            <li class="header-menu__item">
+              <a href="./index.html" class="header-menu__link link">Studio</a>
             </li>
-            <li class="nav-item">
-              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            <li class="header-menu__item">
+              <a href="./portfolio.html" class="header-menu__link link"
+                >Portfolio</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="header-link link" href="">Contacts</a>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="address-list list">
-            <li class="address-item">
-              <a class="address-link link" href="mailto:info@devstudio.com"
+        <address class="header-address">
+          <ul class="header-contact list">
+            <li class="header-contact__item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="header-contact__link link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="address-item">
-              <a class="address-link link" href="tel:+110001111111"
+            <li class="header-contact__item">
+              <a href="tel:+110001111111" class="header-contact__link link"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -57,167 +57,466 @@
       </div>
     </header>
     <main>
-      <!--HERO-->
-
-      <section class="section-hero">
-        <div class="container hero-container">
-          <h1 class="headline">Effective Solutions for Your Business</h1>
-          <button type="button" class="btn-hero">Order Service</button>
+      <section class="section hero">
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="button hero-button">
+            Order Service
+          </button>
         </div>
       </section>
-
-      <!--OUR PRINCIPLES AND PRIORITIES-->
-
-      <section class="section-principles">
+      <section class="section benefits">
         <div class="container">
-          <h2 hidden class="principles-title visually-hidden">
-            OUR PRINCIPLES AND PRIORITIES
-          </h2>
-          <ul class="principles-list list">
-                <li class="principles-item">
-                  <div class="container-img">
-                    <svg class="principles-icon" width="64" height="64"><use href="./images/icons.svg"></use>"</svg>
-                  </div>
-                  <h3 class="page-subtitle">Strategy</h3>
-                  <p class="principles-text">
-                    Our goal is to identify the business problem to walk away with
-                    the perfect and creative solution.
-                  </p>
-            </li>
-            <li class="principles-item">
-              <div class="principles-item-icon">
-                <h3 class="page-subtitle">Punctuality</h3>
-                <p class="principles-text">
-                  Bring the key message to the brand's audience for the best price
-                  within the shortest possible time.
-                </p>
+          <h2 hidden class="benefits-title visually-hidden">benefits</h2>
+          <ul class="benefits-list list">
+            <li class="benefits-list-item">
+              <div class="benefits-item-image">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
               </div>
+              <h3 class="benefits-list-item-title list-title">Strategy</h3>
+              <p class="benefits-list-item-text list-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
             </li>
-            <li class="principles-item">
-              <div class="principles-item-icon">
-                <h3 class="page-subtitle">Diligence</h3>
-                <p class="principles-text">
-                  Research and confirm brands that present the strongest digital
-                  growth opportunities and minimize risk.
-                </p>
+            <li class="benefits-list-item">
+              <div class="benefits-item-image">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
               </div>
+              <h3 class="benefits-list-item-title list-title">Punctuality</h3>
+              <p class="benefits-list-item-text list-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
             </li>
-            <li class="principles-item">
-              <div class="principles-item-icon">
-                <h3 class="page-subtitle">Technologies</h3>
-                <p class="principles-text">
-                  Design practice focused on digital experiences. We bring forth a
-                  deep passion for problem-solving.
-                </p>
+            <li class="benefits-list-item">
+              <div class="benefits-item-image">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
               </div>
+              <h3 class="benefits-list-item-title list-title">Diligence</h3>
+              <p class="benefits-list-item-text list-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="benefits-list-item">
+              <div class="benefits-item-image">
+                <svg class="benefits-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-list-item-title list-title">Technologies</h3>
+              <p class="benefits-list-item-text list-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
             </li>
           </ul>
         </div>
       </section>
-
-      <!--OUR PRODUCTS-->
-
-      <section class="product-section">
+      <section class="section services">
         <div class="container">
-            <h2 class="body-title">What are we doing</h2>
-            <ul class="product-list list">
-              <div class="principles-item-icon">
-                <li class="product-item">
-                  <div class="product-section-icon">
-                    <img
-                      src="./images/img-1.jpg"
-                      alt="computer programs"
-                      width="360"
-                    />
-              </div>
-          </div>
+          <h2 class="services-title section-title">What are we doing</h2>
+          <ul class="services-list list">
+            <li class="services-list__item">
+              <img
+                src="./images/img-1.jpg"
+                alt="in this image you can see monitor with opened web-site"
+                width="360"
+              />
             </li>
-            <li class="product-item">
+            <li class="services-list__item">
               <img
                 src="./images/img-2.jpg"
-                alt="programs for mobile devices"
+                alt="in this image you can see mobile app"
                 width="360"
-                height="300"
               />
             </li>
-            <li class="product-item">
+            <li class="services-list__item">
               <img
                 src="./images/img-3.jpg"
-                alt="multiplatform programs"
+                alt="in this image you can see responsive web-site"
                 width="360"
-                height="300"
               />
             </li>
           </ul>
         </div>
       </section>
-
-      <!--OUR TEAM-->
-
-      <section class="team-section">
+      <section class="section team">
         <div class="container">
-          <h2 class="body-title">Our Team</h2>
+          <h2 class="team-title section-title">Our Team</h2>
           <ul class="team-list list">
-            <li class="team-item">
+            <li class="team-list__item">
               <img
                 src="./images/img-markguerrero.jpg"
-                alt="Photo of Product Designer Mark Guerrero"
+                alt="in this image you can see our Product Designer Mark Guerrero"
                 width="264"
               />
-              <div class="team-item-position">
-                <h3 class="team-title">Mark Guerrero</h3>
-                <p class="team-text">Product Designer</p>
+              <div class="team-list__item-inner">
+                <h3 class="list-title team-list__item-title">Mark Guerrero</h3>
+                <p class="team-list__item-work list-text">Product Designer</p>
+                <ul class="team-list__icons list">
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team-list__item">
               <img
                 src="./images/img-tomford.jpg"
-                alt="Photo of Frontend Developer Tom Ford"
+                alt="in this image you can see our Frontend Developer Tom Ford"
                 width="264"
               />
-              <div class="team-item-position">
-                <h3 class="team-title">Tom Ford</h3>
-                <p class="team-text">Frontend Developer</p>
+              <div class="team-list__item-inner">
+                <h3 class="list-title team-list__item-title">Tom Ford</h3>
+                <p class="team-list__item-work list-text">Frontend Developer</p>
+                <ul class="team-list__icons list">
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team-list__item">
               <img
                 src="./images/img-camilagarcia.jpg"
-                alt="Photo of Marketing Camila Garcia"
+                alt="in this image you can see our Camila Garcia, she is work at Marketing staff"
                 width="264"
               />
-              <div class="team-item-position">
-                <h3 class="team-title">Camila Garcia</h3>
-                <p class="team-text">Marketing</p>
+              <div class="team-list__item-inner">
+                <h3 class="list-title team-list__item-title">Camila Garcia</h3>
+                <p class="team-list__item-work list-text">Marketing</p>
+                <ul class="team-list__icons list">
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team-list__item">
               <img
                 src="./images/img-danielwilson.jpg"
-                alt="Photo of UI Designer Daniel Wilson"
+                alt="in this image you can see our UI Designer Daniel Wilson"
                 width="264"
               />
-              <div class="team-item-position">
-                <h3 class="team-title">Daniel Wilson</h3>
-                <p class="team-text">UI Designer</p>
+              <div class="team-list__item-inner">
+                <h3 class="list-title team-list__item-title">Daniel Wilson</h3>
+                <p class="team-list__item-work list-text">UI Designer</p>
+                <ul class="team-list__icons list">
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-list__icons-item">
+                    <a
+                      href="#"
+                      class="team-list__icon-wrapper"
+                      rel="noopener noreferrer"
+                    >
+                      <svg class="team-list__icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section customers">
+        <div class="container">
+          <h2 class="customers-title section-title">Customers</h2>
+          <ul class="customers-list list">
+            <li class="customers-list__item-wrapper">
+              <a
+                href="#"
+                class="customers-list__item"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-list__icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list__item-wrapper">
+              <a
+                href="#"
+                class="customers-list__item"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-list__icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list__item-wrapper">
+              <a
+                href="#"
+                class="customers-list__item"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-list__icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list__item-wrapper">
+              <a
+                href="#"
+                class="customers-list__item"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-list__icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list__item-wrapper">
+              <a
+                href="#"
+                class="customers-list__item"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-list__icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list__item-wrapper">
+              <a
+                href="#"
+                class="customers-list__item"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-list__icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
-
-    <!--FOOTER-->
-
-    <footer class="footer-section">
-      <div class="container">
-        <a href="./index.html" class="footer-logo-first link logo-footer"
-          >Web<span class="footer-logo-second link logo-footer">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <a href="./index.html" class="logo link footer-logo"
+            >Web<span class="logo-white">Studio</span></a
+          >
+          <p class="footer-info__text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-social">
+          <p class="footer-info__text footer-social_title">Social media</p>
+          <ul class="team-list__icons footer-social__list list">
+            <li class="footer-social__list-item">
+              <a
+                href="#"
+                class="team-list__icon-wrapper"
+                rel="noopener noreferrer"
+              >
+                <svg class="team-list__icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__list-item">
+              <a
+                href="#"
+                class="team-list__icon-wrapper"
+                rel="noopener noreferrer"
+              >
+                <svg class="team-list__icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__list-item">
+              <a
+                href="#"
+                class="team-list__icon-wrapper"
+                rel="noopener noreferrer"
+              >
+                <svg class="team-list__icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__list-item">
+              <a
+                href="#"
+                class="team-list__icon-wrapper"
+                rel="noopener noreferrer"
+              >
+                <svg class="team-list__icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
