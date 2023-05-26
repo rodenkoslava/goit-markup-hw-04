@@ -229,7 +229,16 @@ img {
 
 /*-----OUR PRINCIPLES AND PRIORITIES-----*/
 
-.container-img {}
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+}
 
 .principles-icon {
     width: 64px;
