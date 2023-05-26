@@ -220,6 +220,7 @@ img {
 }
 
 .hero-container {
+    margin: 0 auto;
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
