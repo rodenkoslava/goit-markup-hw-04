@@ -46,6 +46,11 @@ img {
 .container-header {
     display: flex;
     align-items: center;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .list {
@@ -125,18 +130,23 @@ img {
 
 /*-----HEADER-----*/
 
-
+.header-conteiner {
+    display: flex;
+    align-items: center;
+}
 
 .header-section {
     display: flex;
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+    ;
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
-
 }
 
 .nav-list {
@@ -204,11 +214,6 @@ img {
 .section-hero {
     background: var(--title-color);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .headline {
@@ -224,18 +229,28 @@ img {
 
 /*-----OUR PRINCIPLES AND PRIORITIES-----*/
 
-.section-principles {
-    padding: 120px 0;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+
 }
 
-.principles-title {
-    scroll-padding-block-start: ;
+.principles-icon {
+    width: 64px;
+    height: 64px;
 }
+
+.section-principles {
+    padding: 120px 0;
+}
+
+.principles-title {}
 
 .visually-hidden {
     position: absolute;
@@ -253,17 +268,6 @@ img {
 .principles-list {
     display: flex;
     gap: 24px;
-}
-
-.principles-item-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-
 }
 
 .principles-item {
@@ -289,13 +293,6 @@ img {
 
 .product-section {
     padding-bottom: 120px;
-    box-shadow 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08)
-}
-
-.product-section-icon {
-    background-image: url ();
 }
 
 .body-title {
@@ -321,7 +318,7 @@ img {
 
 .team-section {
     background: var(--ghostWhite-color);
-    padding: 120px 0;
+    padding: 120px 0
 }
 
 .body-title {
