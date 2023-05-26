@@ -229,6 +229,13 @@ img {
 
 /*-----OUR PRINCIPLES AND PRIORITIES-----*/
 
+.container-img {
+    width: 64px;
+    height: 64px;
+}
+
+.principles-icon {}
+
 .section-principles {
     padding: 120px 0;
 }
