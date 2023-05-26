@@ -264,7 +264,10 @@ img {
 
 }
 
-.principles-title {}
+.principles-title {
+    height: 112px;
+    background-color: #f4f4fd;
+}
 
 .visually-hidden {
     position: absolute;
